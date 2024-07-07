@@ -9,6 +9,6 @@ header {
     z-index: 8;
     height: 6rem;
     display: flex;
-    justify-content: center; /* Centers horizontally */
+    justify-content: center; 
     align-items: center; 
 }
