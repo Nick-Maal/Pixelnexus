@@ -158,7 +158,7 @@ function Browse() {
 
         <div className="filter-group">
           <h3>Price</h3>
-          {['$39.99', '$24.99', '$19.99', '$59.99', '$14.99', 'Free-to-Play'].map((price) => (
+          {['$59.99+', '$39.99', '$24.99', '$19.99', 'Free-to-Play'].map((price) => (
             <div key={price}>
               <input
                 type="checkbox"
