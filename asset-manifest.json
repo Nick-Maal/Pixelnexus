@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Pixelnexus/static/css/main.99c452aa.css",
+    "main.css": "/Pixelnexus/static/css/main.dcd046fd.css",
     "main.js": "/Pixelnexus/static/js/main.6ee26c81.js",
     "static/media/logo.jpeg": "/Pixelnexus/static/media/logo.43d59274dc6c5bbb083f.jpeg",
     "static/media/rdr2.jpeg": "/Pixelnexus/static/media/rdr2.31306667740f151c21b0.jpeg",
@@ -8,11 +8,11 @@
     "static/media/celeste.jpeg": "/Pixelnexus/static/media/celeste.95848da00be76d7664f9.jpeg",
     "static/media/imageTeam.png": "/Pixelnexus/static/media/imageTeam.9f517cd4d7d76d17fab7.png",
     "index.html": "/Pixelnexus/index.html",
-    "main.99c452aa.css.map": "/Pixelnexus/static/css/main.99c452aa.css.map",
+    "main.dcd046fd.css.map": "/Pixelnexus/static/css/main.dcd046fd.css.map",
     "main.6ee26c81.js.map": "/Pixelnexus/static/js/main.6ee26c81.js.map"
   },
   "entrypoints": [
-    "static/css/main.99c452aa.css",
+    "static/css/main.dcd046fd.css",
     "static/js/main.6ee26c81.js"
   ]
 }
