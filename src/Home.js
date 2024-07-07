@@ -11,12 +11,12 @@ function Home() {
       </div>
 
       <div className="contact-section">
-        <h2>Contact Me</h2>
+        <h2>Contact Us</h2>
         <address>
-          123 Gaming Street<br />
-          Cityville, Ontario 12345<br />
+          123 Donald Street<br />
+          Ottawa, Ontario R3S PO2<br />
           Phone: (123) 456-7890<br />
-          Email: info@awesomegame.com
+          Email: info@pixelnexus.com
         </address>
       </div>
     </main>
