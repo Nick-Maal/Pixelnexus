@@ -25,7 +25,7 @@ function Home() {
       </div>
 
       <div className="contact-section">
-        <h2>Contact Us</h2>
+        <h2>Contact Me</h2>
         <address>
           123 Gaming Street<br />
           Cityville, Ontario 12345<br />
