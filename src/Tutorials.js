@@ -33,12 +33,6 @@ function Tutorials() {
     },
     { id: 2, title: 'Mastering "League of Legends"', image: 'tutorial2.jpg', content: 'In this guide, we cover the basics of "League of Legends", including roles, champions, and strategies to help you climb the ranks.', author: 'Jane Smith', date: 'June 28, 2024' },
     { id: 3, title: 'Top Tips for "Minecraft" Beginners', image: 'tutorial3.jpg', content: 'Learn how to survive your first night in "Minecraft", find resources, and start building your first shelter with this beginner\'s guide.', author: 'Alex Johnson', date: 'June 25, 2024' },
-    { id: 4, title: 'Exploring "The Legend of Zelda: Breath of the Wild"', image: 'tutorial4.jpg', content: 'Discover the vast world of Hyrule with our beginner\'s guide to "Breath of the Wild". Learn how to navigate the open world, solve puzzles, and defeat enemies.', author: 'Emily Davis', date: 'June 20, 2024' },
-    { id: 5, title: 'Becoming a Pro in "Fortnite"', image: 'tutorial5.jpg', content: 'This guide will teach you how to improve your skills in "Fortnite", from building techniques to combat strategies.', author: 'Michael Brown', date: 'June 15, 2024' },
-    { id: 6, title: 'Getting the Most out of "Animal Crossing: New Horizons"', image: 'tutorial6.jpg', content: 'Learn how to make the most of your island life in "Animal Crossing", from gathering resources to designing your home.', author: 'Olivia Wilson', date: 'June 10, 2024' },
-    { id: 7, title: 'Tips and Tricks for "Overwatch" Beginners', image: 'tutorial7.jpg', content: 'Get started with "Overwatch" with our beginner\'s guide, covering heroes, roles, and strategies to help you succeed in matches.', author: 'Daniel Lee', date: 'June 5, 2024' },
-    { id: 8, title: 'Advanced Techniques for "Apex Legends"', image: 'tutorial8.jpg', content: 'This guide covers advanced techniques for "Apex Legends", including movement, shooting, and teamwork strategies.', author: 'Sophia Taylor', date: 'May 30, 2024' },
-    { id: 9, title: 'Becoming a "Call of Duty" Expert', image: 'tutorial9.jpg', content: 'Learn how to master "Call of Duty" with our expert tips, covering loadouts, maps, and game modes.', author: 'David Clark', date: 'May 25, 2024' },
   ];
 
   const openTutorial = (tutorial) => {
