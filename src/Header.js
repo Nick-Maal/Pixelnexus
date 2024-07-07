@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <header>
-      <h2>Pixel Nexus</h2>
+      <h1>Pixel Nexus</h1>
     </header>
   );
 }
