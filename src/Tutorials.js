@@ -85,7 +85,7 @@ function Tutorials() {
         ))}
       </div>
 
-      {selectedTutorial && ( // Only show the modal if a tutorial is selected
+      {selectedTutorial && ( 
         <div className="tutorial-modal">
           <div className="tutorial-modal-content">
             <button className="close-button" onClick={closeTutorial}>&times;</button>
@@ -94,7 +94,6 @@ function Tutorials() {
             <p className="tutorial-details">By {selectedTutorial.author} | {selectedTutorial.date}</p>
             <p className="tutorial-content">{selectedTutorial.content}</p>
 
-            {/* Like and Comment Section */}
             <div className="like-section">
               <button onClick={() => handleLike(selectedTutorial.id)}>Like</button>
               <span>{tutorialLikes[selectedTutorial.id] || 0} Likes</span>
@@ -109,7 +108,6 @@ function Tutorials() {
                 ))}
               </ul>
 
-              {/* Comment form */}
               <div className="comment-form">
                 <input 
                   type="text" 
