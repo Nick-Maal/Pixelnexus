@@ -69,12 +69,11 @@ function Browse() {
       id: 5,
       title: 'Stardew Valley',
       genre: 'Simulation RPG',
-      price: '$14.99',
+      price: '$19.99',
       rating: 4.6,
       image: 'stardew_valley.jpeg',
       description: 'Stardew Valley is an open-ended country-life RPG! You’ve inherited your grandfather’s old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won’t be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town’s most vibrant hub of activity, now lies in shambles.',
     },
-    // Add more game data here... (up to 9 games)
   ];
 
   const openGameDetails = (game) => {
