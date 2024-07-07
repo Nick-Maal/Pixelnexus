@@ -2,26 +2,11 @@ import React, { useState, useEffect } from 'react';
 import './Home.css';
 
 function Home() {
-  const images = [
-    './image1.jpeg', 
-    './image2.jpeg',
-    './image3.webp',
-  ];
-
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 8000); 
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <main className="home-page">
       <div className="image-collage">
-        <img src={images[currentImageIndex]} alt="Game Collage" />
+        <img src={"./logo.jpeg"} alt="Game Collage" />
       </div>
 
       <div className="contact-section">
