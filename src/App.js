@@ -12,7 +12,7 @@ import Forums from './Forums';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Pixelnexus">
       <div className="App">
         <Header />
         <NavBar /> 
