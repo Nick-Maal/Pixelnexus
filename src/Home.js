@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
+import logo from './logo.jpeg';
 
 function Home() {
 
   return (
     <main className="home-page">
       <div className="image-collage">
-        <img src={"./logo.jpeg"} alt="Game Collage" />
+        <img src={logo} alt="Logo" />
       </div>
 
       <div className="contact-section">
