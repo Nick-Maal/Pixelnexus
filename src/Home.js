@@ -3,9 +3,9 @@ import './Home.css';
 
 function Home() {
   const images = [
-    'image1.jpeg', 
-    'image2.jpeg',
-    'image3.webp',
+    './image1.jpeg', 
+    './image2.jpeg',
+    './image3.webp',
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
