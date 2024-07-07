@@ -35,10 +35,6 @@ function Articles() {
     { id: 3, title: 'Top 10 Indie Games You Must Play', image: 'article3.jpg', content: 'The indie game scene is thriving, offering a wealth of creative and innovative experiences. This article highlights ten must-play indie titles that you might have missed, covering various genres and gameplay styles.', author: 'Alex Johnson', date: 'June 25, 2024' },
     { id: 4, title: 'Virtual Reality: The Future of Gaming?', image: 'article4.jpg', content: 'Virtual reality (VR) technology has the potential to revolutionize gaming, offering unparalleled immersion and interactivity. This article delves into the current state of VR gaming, its challenges, and its exciting possibilities for the future.', author: 'Emily Davis', date: 'June 20, 2024' },
     { id: 5, title: 'The Impact of Gaming on Mental Health', image: 'article5.jpg', content: 'Video games can have both positive and negative effects on mental health. This article examines the research on gaming and mental well-being, discussing its potential benefits for cognitive skills and social connection, as well as its risks for addiction and isolation.', author: 'Michael Brown', date: 'June 15, 2024' },
-    { id: 6, title: 'Mobile Gaming: The Next Frontier', image: 'article6.jpg', content: 'Mobile gaming has become a dominant force in the industry, with millions of players enjoying games on their smartphones and tablets. This article explores the trends, innovations, and challenges in the world of mobile gaming.', author: 'Olivia Wilson', date: 'June 10, 2024' },
-    { id: 7, title: 'The Evolution of Gaming Consoles', image: 'article7.jpg', content: 'From the early days of Atari to the latest PlayStation and Xbox consoles, gaming hardware has evolved dramatically. This article traces the history of gaming consoles, highlighting key innovations and their impact on the gaming experience.', author: 'Daniel Lee', date: 'June 5, 2024' },
-    { id: 8, title: 'The Art of Game Design: An Interview', image: 'article8.jpg', content: 'In this exclusive interview, we sit down with a renowned game designer to discuss their creative process, inspirations, and insights into the world of game development.', author: 'Sophia Taylor', date: 'May 30, 2024' },
-    { id: 9, title: 'Gaming Community Spotlight: Meet the Players', image: 'article9.jpg', content: 'Gaming is more than just playing; it\'s about connecting with others who share your passion. This article shines a spotlight on members of our vibrant gaming community, sharing their stories, experiences, and favorite games.', author: 'David Clark', date: 'May 25, 2024' },
   ];
 
   const openArticle = (article) => {
@@ -85,7 +81,7 @@ function Articles() {
         ))}
       </div>
 
-      {selectedArticle && ( // Only show the modal if an article is selected
+      {selectedArticle && ( 
         <div className="article-modal">
           <div className="article-modal-content">
             <button className="close-button" onClick={closeArticle}>&times;</button>
@@ -94,7 +90,6 @@ function Articles() {
             <p className="article-details">By {selectedArticle.author} | {selectedArticle.date}</p>
             <p className="article-content">{selectedArticle.content}</p>
 
-            {/* Like and Comment Section */}
             <div className="like-section">
               <button onClick={() => handleLike(selectedArticle.id)}>Like</button>
               <span>{articleLikes[selectedArticle.id] || 0} Likes</span>
@@ -109,7 +104,6 @@ function Articles() {
                 ))}
               </ul>
 
-              {/* Comment form */}
               <div className="comment-form">
                 <input 
                   type="text" 
